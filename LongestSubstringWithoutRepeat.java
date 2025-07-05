@@ -1,5 +1,7 @@
 import java.util.HashSet;
 
+// Time Complexity: O(n) where n is the length of the string s
+// Space Complexity: O(min(n, m)) where n is the length of s and m is the size of the character set
 public class LongestSubstringWithoutRepeat {
     public int lengthOfLongestSubstring(String s) {
         HashSet<Character> set = new HashSet<>();

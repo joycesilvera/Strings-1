@@ -1,5 +1,7 @@
 import java.util.HashMap;
 
+//Time Complexity: O(n + m) where n is the length of s and m is the length of order
+//Space Complexity: O(n) where n is the length of s
 public class CustomSortString {
 
     // Space could've been 0(1) but we are using an intermediate Stringbuilder so it
